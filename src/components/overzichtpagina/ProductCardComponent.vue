@@ -2,7 +2,7 @@
   <div @click="goToLink()" class="kaartproducten">
     <img class="" :src="require(`@/assets/products/${image}`)" :alt="title">
     <h1 class="producttitel">{{ title }}</h1>
-    <p  class="productprijs">Subtotaal: € {{ price }} </p>
+    <p  class="productprijs">Prijs: € {{ price }} </p>
     <button class="buttonproduct">Meer Informatie</button>
   </div>
 
