@@ -4,7 +4,7 @@
       <img :src="require(`@/assets/products/${product.img}`)" :alt="product.title">
     </div>
     <div class="winkelwagenproduct">
-      <h2>{{ product.title }}</h2>
+      <h2> {{ product.title }}</h2>
     </div>
     <div class="winkelwagenproduct">
       <h3 style="font-weight: 400">
@@ -34,5 +34,3 @@
         }
     }
 </script>
-
-
