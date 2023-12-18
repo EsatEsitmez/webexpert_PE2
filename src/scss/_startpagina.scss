@@ -1,0 +1,140 @@
+@import "variabelen";
+
+.hero {
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 0%;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../src/assets/test1.png");
+
+  .buttonhero {
+    display: inline-block;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    background-color: $buttonkleur;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+
+    &:hover {
+      background: $hoverkleurproduct;
+    }
+  }
+
+  .overlay {
+    @extend %stijl;
+    background-color: $overlay;
+    padding: 100px;
+
+    h1 {
+      color: $hoverkleurproduct;
+      font-size: 60px;
+    }
+
+    p {
+      color: $wit;
+      font-size: 20px;
+    }
+  }
+}
+
+.kaart-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.kaart, .andere-kaart {
+  box-shadow: 0 4px 8px gray;
+  color: $buttonkleur;
+  transition: 0.3s;
+  width: 30%;
+  margin-bottom: 20px;
+  background-color: $herokleur;
+  overflow: hidden;
+  border-radius: 8px;
+
+  &:hover {
+    box-shadow: 0 8px 16px gray;
+    background-color: $accentkleur;
+    transform: scale(1.05);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: $buttonkleur;
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.inhoud {
+  padding: 20px;
+  text-align: center;
+
+  .kop,
+  .tekst {
+    color: $wit;
+  }
+
+  a {
+    text-decoration: none;
+    color: $zwart;
+  }
+}
+
+.titelvanstartpagina {
+  padding-top: 40px;
+  padding-left: 30%;
+
+  h1 {
+    font-size: 50px;
+  }
+}
+
+.kenmerken {
+  @extend %elementen;
+}
+
+.kenmerk {
+  text-align: center;
+
+  img {
+    max-width: 99%;
+    height: 90%;
+    transition: transform 0.3s;
+  }
+
+  h3 {
+    margin-top: 10px;
+    font-size: 25px;
+    padding-left: 32%;
+    color: $herokleur;
+  }
+
+  p {
+    font-size: 14px;
+    color: $zwart;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  @media (max-width: 768px) {
+    h3 {
+      padding-left: 0;
+    }
+  }
+}
+

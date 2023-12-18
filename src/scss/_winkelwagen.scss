@@ -1,0 +1,181 @@
+@import "variabelen";
+/* winkelwagen*/
+.winkelwagen{
+  padding-bottom: 150px;
+}
+
+.winkelwagenbox {
+  width: 90%;
+  padding: 10px 100px 80px 100px;
+}
+
+.iteminwinkelwagen{
+  width: 90%;
+  margin-top: -150px;
+  padding: 50px 0 50px 100px;
+}
+
+#winkelwagenleeg{
+  width: 80%;
+  text-align: center;
+  border-radius: 50px;
+  padding: 0 10% 2% 10%;
+  margin-bottom: 295px;
+  background-color:$bgcontainer;
+  h1 {
+    padding-top: 20px;
+  }
+}
+
+
+
+
+.winkelwagenbutton{
+  height: 80px;
+  width: 200px;
+  font-size: 30px;
+  background-color: $herokleur;
+  margin-top: 40px;
+
+    h5 {
+      color: $wit;
+    }
+    h2 {
+      color: $wit;
+    }
+  }
+
+.winkelwagenbutton:hover {
+  background-color: $accenthover;
+}
+
+
+#winkelwagencontainergap{
+  padding-top: 100px;
+  gap: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+}
+
+#winkelwagencontainerproducten{
+  flex: 60%;
+  margin: 20px;
+  min-height: 700px;
+  border-radius: 50px;
+  background-color:$bgcontainer;
+}
+
+#winkelwagencontainerbesteloverzicht{
+  flex: 25%;
+  margin: 20px;
+
+  max-height: 700px;
+  border-radius: 50px;
+  background-color:$bgcontainer;
+}
+
+.winkelwagenheader {
+  padding-top: 140px;
+
+}
+
+//cart
+#quantity{
+  width: 200px;
+  margin: 0 0 0 auto;
+}
+#winkelwagencontainerproduct{
+  display: grid;
+  position: relative;
+  align-items: center;
+  margin: 0 50px 2% 50px;
+  grid-template-rows: auto 1fr;
+  background-color:$bgcontainer;
+
+  justify-content: space-between;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.winkelwagenproduct img {
+  max-width: 200px;
+  border-radius: 25%;
+}
+
+.winkelwagenproduct h2,  h3{
+  width: 160px;
+}
+
+.winkelwagenproduct button {
+  border: none;
+  background-color:$bgcontainer;
+}
+
+#winkelwagenlijn hr{
+  width: 90%;
+  height: 1px;
+  margin: auto auto 2% auto;
+}
+
+
+input[type=text] {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.formlabels{
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+  padding: 20px 0 20px 20px;
+}
+
+.formlabels label{
+  min-width: 100px;
+  padding-right: 15px;
+}
+
+#winkelwagencontainerform{
+  width: 92%;
+  padding: 50px;
+  margin: 20px;
+  text-align: right;
+  border-radius: 50px;
+  background-color:$bgcontainer;
+}
+.buttonstijl{
+color: $wit;
+}
+#formfactuur{
+  text-align: center;
+}
+
+#formfactuur input{
+  margin-left: 10px;
+}
+
+.winkelwagenbesteloverzicht{
+  border-radius: 50px;
+  background-color:$bgcontainer;
+  padding: 20px 20px 0 20px;
+}
+
+.winkelwagenbesteloverzicht h1{
+  margin: 5% 0 15% 0;
+}
+
+.winkelwagenbesteloverzichtvlakken{
+  display: grid;
+  position: relative;
+  align-items: center;
+  margin: 10% 50px 12% 50px;
+  grid-template-rows: auto 1fr;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+}
+
+.winkelwagenbesteloverzichtvlakken p, div{
+  font-size: 33px;
+}
+
+

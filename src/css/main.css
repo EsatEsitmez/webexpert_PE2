@@ -1,0 +1,965 @@
+* {
+  margin: 0;
+  font-family: Calibri, Verdana;
+  font-size: 20px; }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 2px; }
+
+::-webkit-scrollbar-button {
+  background: #ffff;
+  border-radius: 5px; }
+
+::-webkit-scrollbar-thumb {
+  background: #e4e4ff; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #022d4b; }
+
+::-webkit-scrollbar-track {
+  background: #ffff; }
+
+.hero .overlay {
+  font-size: 16px;
+  line-height: 3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 110%;
+  max-width: 100%; }
+
+.kenmerken {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.breadcrumb {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 110px; }
+  .breadcrumb .Breadcrumbtext {
+    text-decoration: none;
+    font-weight: bold; }
+
+.productinfopagina {
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .productinfopagina img {
+    margin: auto;
+    display: block;
+    width: 55%; }
+  .productinfopagina h1 {
+    margin: 0 0 5% 0; }
+  .productinfopagina div {
+    margin-top: 5%; }
+  .productinfopagina p {
+    padding-right: 20%; }
+
+.hoeveelheid {
+  display: flex;
+  width: 10%; }
+  .hoeveelheid button {
+    min-width: 40px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0 5px 0 5px; }
+  .hoeveelheid p {
+    width: 100px;
+    min-width: 50px;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #f5f5f5; }
+
+.productdetails__buttons {
+  margin-top: 5%;
+  padding: 10px;
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #074f80;
+  color: #ffff;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px; }
+
+.vergelijkingstabel {
+  margin-top: 30px;
+  overflow-x: auto;
+  margin-left: 25%;
+  margin-right: 10%;
+  padding-bottom: 20px; }
+  .vergelijkingstabel table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden; }
+    .vergelijkingstabel table th, .vergelijkingstabel table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left; }
+    .vergelijkingstabel table th {
+      background-color: #f2f2f2; }
+    .vergelijkingstabel table tr:nth-child(even) {
+      background-color: #f9f9f9; }
+    .vergelijkingstabel table tr:hover {
+      background-color: #f5f5f5; }
+  @media (max-width: 768px) {
+    .vergelijkingstabel table {
+      display: block; }
+      .vergelijkingstabel table th, .vergelijkingstabel table td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box; }
+      .vergelijkingstabel table th {
+        text-align: center; } }
+
+.technische-specificaties {
+  margin-top: 30px;
+  padding-left: 0; }
+  .technische-specificaties h3 {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    padding-top: 0;
+    color: #074f80; }
+  .technische-specificaties ul {
+    list-style-type: none;
+    padding: 0; }
+    .technische-specificaties ul li {
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #333; }
+
+* {
+  margin: 0;
+  font-family: Calibri, Verdana;
+  font-size: 20px; }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 2px; }
+
+::-webkit-scrollbar-button {
+  background: #ffff;
+  border-radius: 5px; }
+
+::-webkit-scrollbar-thumb {
+  background: #e4e4ff; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #022d4b; }
+
+::-webkit-scrollbar-track {
+  background: #ffff; }
+
+.hero .overlay {
+  font-size: 16px;
+  line-height: 3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 110%;
+  max-width: 100%; }
+
+.kenmerken {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.loginbody {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffff;
+  height: 100vh;
+  margin: 0; }
+
+#left-section {
+  flex: 1;
+  text-align: center;
+  margin-left: 150px; }
+  #left-section img {
+    width: 80%; }
+
+#right-section {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 120px;
+  margin-right: 2rem; }
+  #right-section #login-form {
+    max-width: 15rem;
+    margin: 5px;
+    padding: 20px 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 98px rgba(0, 0, 0, 0.1); }
+    #right-section #login-form #username {
+      color: #074f80;
+      padding-left: 10px; }
+    #right-section #login-form #password {
+      color: #074f80;
+      padding-left: 10px; }
+    #right-section #login-form input {
+      margin-left: 10px;
+      width: 80%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px; }
+    #right-section #login-form #login-button {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #074f80;
+      color: #ffff;
+      cursor: pointer;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 1rem; }
+      #right-section #login-form #login-button button:hover {
+        background-color: #022d4b;
+        transform: scale(1.05); }
+    #right-section #login-form #login-button:hover {
+      background-color: #022d4b; }
+    #right-section #login-form #register-button {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #074f80;
+      color: #ffff;
+      cursor: pointer;
+      text-decoration: none;
+      border-radius: 5px; }
+      #right-section #login-form #register-button button:hover {
+        background-color: #022d4b;
+        transform: scale(1.05); }
+    #right-section #login-form #register-button:hover {
+      background-color: #022d4b; }
+  #right-section #logout-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #074f80;
+    color: #ffff;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 1rem; }
+    #right-section #logout-button button:hover {
+      background-color: #022d4b;
+      transform: scale(1.05); }
+  #right-section #logout-button:hover {
+    background-color: #022d4b; }
+
+.logintitel {
+  margin-left: 5rem; }
+
+.wwvergeten {
+  margin-left: 2rem; }
+  .wwvergeten a {
+    text-decoration: none; }
+
+@media screen and (max-width: 768px) {
+  .loginbody {
+    flex-direction: column;
+    padding-top: 130px;
+    padding-bottom: 100px; }
+  #left-section,
+  #right-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex: 1;
+    margin: 0;
+    text-align: center; }
+  #right-section {
+    margin-top: 20px; }
+  .logintitel,
+  .wwvergeten {
+    margin-left: 0;
+    margin-top: 1rem; } }
+
+* {
+  margin: 0;
+  font-family: Calibri, Verdana;
+  font-size: 20px; }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 2px; }
+
+::-webkit-scrollbar-button {
+  background: #ffff;
+  border-radius: 5px; }
+
+::-webkit-scrollbar-thumb {
+  background: #e4e4ff; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #022d4b; }
+
+::-webkit-scrollbar-track {
+  background: #ffff; }
+
+.hero .overlay {
+  font-size: 16px;
+  line-height: 3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 110%;
+  max-width: 100%; }
+
+.kenmerken {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.flex-container {
+  display: flex;
+  width: 100%; }
+
+.producttitel {
+  font-size: 30px;
+  padding-top: 50px; }
+
+.buttonproduct {
+  color: #ffff; }
+
+.productpaginafilter {
+  padding-top: 130px;
+  display: flex; }
+
+.aantalitemsbutton {
+  background-color: #074f80;
+  font-size: 20px; }
+  .aantalitemsbutton h1 {
+    font-size: 20px; }
+
+.aantalitemsbutton:hover {
+  cursor: pointer; }
+
+.productpaginafilter div {
+  text-align: center;
+  width: 100%; }
+
+.productpaginafilter h1 label {
+  padding-top: 20px;
+  font-size: 35px; }
+
+.productselect {
+  color: #ffff;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  background-color: #074f80; }
+  .productselect option {
+    color: #ffff; }
+
+.items__flex__container {
+  gap: 20%;
+  padding: 1% 5% 0 0;
+  flex-wrap: wrap; }
+
+.langselkaar {
+  display: initial;
+  margin-left: 10rem; }
+
+.items__flex__container div {
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+
+.kaartproducten {
+  background-color: #116298;
+  margin: 20px;
+  text-align: center;
+  max-width: 350px;
+  border-radius: 5%;
+  display: inline-block; }
+
+.kaartproducten img {
+  width: 100%; }
+
+.kaartproducten button:hover {
+  background-color: #0056b3; }
+
+.kaartproducten p {
+  color: #ffff;
+  margin-bottom: 1rem; }
+
+.kaartproducten h1 {
+  margin-top: -10px; }
+
+.kaartproducten button {
+  width: 50%;
+  border: none;
+  padding-bottom: 10px;
+  margin: 20px;
+  padding-top: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  color: #ffff;
+  background-color: #074f80; }
+
+.buttonfavproduct {
+  margin-top: 40px; }
+
+.PaginationComponent {
+  align-items: center; }
+
+li {
+  list-style-type: none; }
+
+.PaginationClick {
+  color: #ffff;
+  background-color: #074f80;
+  margin: 4px; }
+
+* {
+  margin: 0;
+  font-family: Calibri, Verdana;
+  font-size: 20px; }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 2px; }
+
+::-webkit-scrollbar-button {
+  background: #ffff;
+  border-radius: 5px; }
+
+::-webkit-scrollbar-thumb {
+  background: #e4e4ff; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #022d4b; }
+
+::-webkit-scrollbar-track {
+  background: #ffff; }
+
+.hero .overlay {
+  font-size: 16px;
+  line-height: 3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 110%;
+  max-width: 100%; }
+
+.kenmerken {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.hero {
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 0%;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../src/assets/test1.png"); }
+  .hero .buttonhero {
+    display: inline-block;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    background-color: #074f80;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px; }
+    .hero .buttonhero:hover {
+      background: #0056b3; }
+  .hero .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px; }
+    .hero .overlay h1 {
+      color: #0056b3;
+      font-size: 60px; }
+    .hero .overlay p {
+      color: #ffff;
+      font-size: 20px; }
+
+.kaart-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px; }
+
+.kaart, .andere-kaart {
+  box-shadow: 0 4px 8px gray;
+  color: #074f80;
+  transition: 0.3s;
+  width: 30%;
+  margin-bottom: 20px;
+  background-color: #074f80;
+  overflow: hidden;
+  border-radius: 8px; }
+  .kaart:hover, .andere-kaart:hover {
+    box-shadow: 0 8px 16px gray;
+    background-color: #1f577a;
+    transform: scale(1.05); }
+  .kaart img, .andere-kaart img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: #074f80;
+    transition: transform 0.3s; }
+    .kaart img:hover, .andere-kaart img:hover {
+      transform: scale(1.1); }
+  @media (max-width: 768px) {
+    .kaart, .andere-kaart {
+      width: 100%; } }
+
+.inhoud {
+  padding: 20px;
+  text-align: center; }
+  .inhoud .kop,
+  .inhoud .tekst {
+    color: #ffff; }
+  .inhoud a {
+    text-decoration: none;
+    color: #000000; }
+
+.titelvanstartpagina {
+  padding-top: 40px;
+  padding-left: 30%; }
+  .titelvanstartpagina h1 {
+    font-size: 50px; }
+
+.kenmerk {
+  text-align: center; }
+  .kenmerk img {
+    max-width: 99%;
+    height: 90%;
+    transition: transform 0.3s; }
+  .kenmerk h3 {
+    margin-top: 10px;
+    font-size: 25px;
+    padding-left: 32%;
+    color: #074f80; }
+  .kenmerk p {
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 8px; }
+  @media (max-width: 768px) {
+    .kenmerk h3 {
+      padding-left: 0; } }
+
+* {
+  margin: 0;
+  font-family: Calibri, Verdana;
+  font-size: 20px; }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 2px; }
+
+::-webkit-scrollbar-button {
+  background: #ffff;
+  border-radius: 5px; }
+
+::-webkit-scrollbar-thumb {
+  background: #e4e4ff; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #022d4b; }
+
+::-webkit-scrollbar-track {
+  background: #ffff; }
+
+.hero .overlay {
+  font-size: 16px;
+  line-height: 3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 110%;
+  max-width: 100%; }
+
+.kenmerken {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.site-footer {
+  border-radius: 0;
+  background-color: #1f577a;
+  color: #ffff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+  .site-footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+
+.footer-left {
+  flex: 1;
+  align-self: flex-start;
+  text-align: left;
+  padding: 10px; }
+  .footer-left .footer-description {
+    font-size: 16px;
+    margin-top: 10px; }
+  .footer-left .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; }
+    .footer-left .social-icons img {
+      margin: 0 10px; }
+
+.footer-center {
+  flex: 1;
+  align-self: center;
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px; }
+  .footer-center .footer-title {
+    font-size: 18px;
+    margin-bottom: 10px; }
+  .footer-center .footer-menu {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0; }
+    .footer-center .footer-menu li {
+      display: inline-block;
+      margin-right: 20px;
+      margin-bottom: 10px; }
+      .footer-center .footer-menu li a {
+        color: #ffff;
+        text-decoration: none; }
+
+.footer-right {
+  flex: 1;
+  align-self: flex-end;
+  text-align: center;
+  padding: 10px; }
+  .footer-right .contact-info .contact-detail {
+    font-size: 16px;
+    margin-bottom: 10px; }
+
+@media screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column; }
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex: 1;
+    align-self: center;
+    text-align: center;
+    padding: 20px; } }
+
+* {
+  margin: 0;
+  font-family: Calibri, Verdana;
+  font-size: 20px; }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 2px; }
+
+::-webkit-scrollbar-button {
+  background: #ffff;
+  border-radius: 5px; }
+
+::-webkit-scrollbar-thumb {
+  background: #e4e4ff; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #022d4b; }
+
+::-webkit-scrollbar-track {
+  background: #ffff; }
+
+.hero .overlay {
+  font-size: 16px;
+  line-height: 3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 110%;
+  max-width: 100%; }
+
+.kenmerken {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+* {
+  margin: 0;
+  font-family: Calibri, Verdana;
+  font-size: 20px; }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 2px; }
+
+::-webkit-scrollbar-button {
+  background: #ffff;
+  border-radius: 5px; }
+
+::-webkit-scrollbar-thumb {
+  background: #e4e4ff; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #022d4b; }
+
+::-webkit-scrollbar-track {
+  background: #ffff; }
+
+.hero .overlay {
+  font-size: 16px;
+  line-height: 3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 110%;
+  max-width: 100%; }
+
+.kenmerken {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+/* winkelwagen*/
+.winkelwagen {
+  padding-bottom: 150px; }
+
+.winkelwagenbox {
+  width: 90%;
+  padding: 10px 100px 80px 100px; }
+
+.iteminwinkelwagen {
+  width: 90%;
+  margin-top: -150px;
+  padding: 50px 0 50px 100px; }
+
+#winkelwagenleeg {
+  width: 80%;
+  text-align: center;
+  border-radius: 50px;
+  padding: 0 10% 2% 10%;
+  margin-bottom: 295px;
+  background-color: #e1eef6; }
+  #winkelwagenleeg h1 {
+    padding-top: 20px; }
+
+.winkelwagenbutton {
+  height: 80px;
+  width: 200px;
+  font-size: 30px;
+  background-color: #074f80;
+  margin-top: 40px; }
+  .winkelwagenbutton h5 {
+    color: #ffff; }
+  .winkelwagenbutton h2 {
+    color: #ffff; }
+
+.winkelwagenbutton:hover {
+  background-color: #022d4b; }
+
+#winkelwagencontainergap {
+  padding-top: 100px;
+  gap: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: row; }
+
+#winkelwagencontainerproducten {
+  flex: 60%;
+  margin: 20px;
+  min-height: 700px;
+  border-radius: 50px;
+  background-color: #e1eef6; }
+
+#winkelwagencontainerbesteloverzicht {
+  flex: 25%;
+  margin: 20px;
+  max-height: 700px;
+  border-radius: 50px;
+  background-color: #e1eef6; }
+
+.winkelwagenheader {
+  padding-top: 140px; }
+
+#quantity {
+  width: 200px;
+  margin: 0 0 0 auto; }
+
+#winkelwagencontainerproduct {
+  display: grid;
+  position: relative;
+  align-items: center;
+  margin: 0 50px 2% 50px;
+  grid-template-rows: auto 1fr;
+  background-color: #e1eef6;
+  justify-content: space-between;
+  grid-template-columns: auto auto auto auto auto; }
+
+.winkelwagenproduct img {
+  max-width: 200px;
+  border-radius: 25%; }
+
+.winkelwagenproduct h2, h3 {
+  width: 160px; }
+
+.winkelwagenproduct button {
+  border: none;
+  background-color: #e1eef6; }
+
+#winkelwagenlijn hr {
+  width: 90%;
+  height: 1px;
+  margin: auto auto 2% auto; }
+
+input[type=text] {
+  padding: 10px;
+  border-radius: 5px; }
+
+.formlabels {
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+  padding: 20px 0 20px 20px; }
+
+.formlabels label {
+  min-width: 100px;
+  padding-right: 15px; }
+
+#winkelwagencontainerform {
+  width: 92%;
+  padding: 50px;
+  margin: 20px;
+  text-align: right;
+  border-radius: 50px;
+  background-color: #e1eef6; }
+
+.buttonstijl {
+  color: #ffff; }
+
+#formfactuur {
+  text-align: center; }
+
+#formfactuur input {
+  margin-left: 10px; }
+
+.winkelwagenbesteloverzicht {
+  border-radius: 50px;
+  background-color: #e1eef6;
+  padding: 20px 20px 0 20px; }
+
+.winkelwagenbesteloverzicht h1 {
+  margin: 5% 0 15% 0; }
+
+.winkelwagenbesteloverzichtvlakken {
+  display: grid;
+  position: relative;
+  align-items: center;
+  margin: 10% 50px 12% 50px;
+  grid-template-rows: auto 1fr;
+  justify-content: space-between;
+  grid-template-columns: auto auto; }
+
+.winkelwagenbesteloverzichtvlakken p, div {
+  font-size: 33px; }
+
+* {
+  margin: 0;
+  font-family: Calibri, Verdana;
+  font-size: 20px; }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 2px; }
+
+::-webkit-scrollbar-button {
+  background: #ffff;
+  border-radius: 5px; }
+
+::-webkit-scrollbar-thumb {
+  background: #e4e4ff; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #022d4b; }
+
+::-webkit-scrollbar-track {
+  background: #ffff; }
+
+.hero .overlay {
+  font-size: 16px;
+  line-height: 3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 110%;
+  max-width: 100%; }
+
+.kenmerken {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.navigation {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 0;
+  background-color: #1f577a;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%; }
+
+.brand {
+  float: left;
+  padding: 10px 0 0 20px;
+  opacity: 100%; }
+
+.navbar-brand img {
+  width: auto;
+  height: 80px; }
+
+.navbar-image {
+  width: 40px;
+  padding-top: 8px;
+  margin-top: 8px;
+  height: auto; }
+
+nav {
+  float: right;
+  padding-right: 80px; }
+  nav ul {
+    list-style: none; }
+    nav ul li {
+      float: left;
+      position: relative; }
+      nav ul li a {
+        display: block;
+        line-height: 80px;
+        text-decoration: none;
+        padding: 10px 10px 0 40px;
+        color: #ffff;
+        text-align: center;
+        transition: color 0.3s, font-size 0.3s; }
+        nav ul li a:hover {
+          color: #afafb6;
+          font-size: 25px; }
+
+#winkelwagentotaal {
+  margin-top: 50px; }

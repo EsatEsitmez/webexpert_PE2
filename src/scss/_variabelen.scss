@@ -1,0 +1,173 @@
+
+
+$productinfo: #eeeeee;
+$paginatiekleur: #b9b6b6;
+$hoverwit: #ddd;
+$paginatienummer: #007BFF;
+$productbalk: #116298;
+$background-color_1: #eeeefc;
+$grijsblauw: #424f64;
+$rood: #e74c3c;
+$achtergrondkleur: #eeeefc;
+$turqblauw: #e4e4ff;
+$bgcontainer: #e1eef6;
+$grijzig: #333;
+$accenthover: #022d4b;
+$zwart: #000000;
+$borderkleur: #ccc;
+$overlay: rgba(0, 0, 0, 0.5);
+$herokleur: #074f80;
+$accentkleur: #1f577a;
+$boxschaduw: rgba(0, 0, 0, 0.2);
+$grijs: #afafb6;
+$wit: #ffff;
+$buttonkleur: #074f80;
+$lichtblauw: #3498db;
+$donkergrijs: #555;
+$zeeblauw: #325c7a;
+$hoverkleurproduct: #0056b3;
+$spankleur: #555;
+$thkleur: #f2f2f2;
+$trkleur: #f9f9f9;
+$trhoverkleur: #f5f5f5;
+
+
+*{
+  margin: 0;
+  font-family: Calibri, Verdana;
+  font-size: 20px;
+
+}
+
+@mixin hover{
+  &:not([disabled]):hover {
+    @content;
+  }
+}
+
+@mixin button{
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: $buttonkleur;
+  color: $wit;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+@mixin input(){
+  color: #fff;
+  width: 30%;
+  opacity: 50%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-button{
+  background: $wit;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: $turqblauw;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: $accenthover;
+}
+
+::-webkit-scrollbar-track{
+  background: $wit;
+}
+
+
+@mixin button-stijl {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: $buttonkleur;
+  color: $wit;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  button:hover {
+    background-color: $accenthover;
+    transform: scale(1.05);
+  }
+}
+
+@mixin button-stijl2 {
+  background-color: $turqblauw;
+  color: $wit;
+  padding: 10px 15px;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+
+  button:hover {
+    background-color: $accenthover;
+    transform: scale(1.05);
+  }
+}
+
+
+@mixin fotos {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+
+@mixin kaartcards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+
+@mixin h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: $herokleur;
+}
+
+@mixin p {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+
+
+%stijl {
+  font-size: 16px;
+  line-height: 3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 110%;
+  max-width: 100%;
+}
+%elementen {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+%kenmerken {
+  font-weight: bold;
+  color: $herokleur;
+}
+
+%componenten {
+  border: 1px solid $grijzig;
+  border-radius: 5px;
+  padding: 0;
+}

@@ -1,0 +1,131 @@
+@import "variabelen";
+
+.flex-container{
+  display: flex;
+  width: 100%;
+}
+
+.producttitel {
+  font-size: 30px;
+  padding-top: 50px;
+}
+.buttonproduct {
+  color: $wit;
+}
+
+.productpaginafilter{
+  padding-top: 130px;
+  display: flex;
+}
+.aantalitemsbutton {
+  background-color: $herokleur;
+  font-size: 20px;
+  h1 {
+    font-size: 20px;
+  }
+}
+
+.aantalitemsbutton:hover {
+  cursor: pointer;
+}
+
+
+
+.productpaginafilter div{
+  text-align: center;
+  width: 100%;
+}
+
+.productpaginafilter h1 label{
+  padding-top: 20px;
+  font-size: 35px;
+}
+
+.productselect {
+  color: $wit;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  background-color: $buttonkleur;
+
+  option {
+    color: $wit;
+  }
+}
+
+.items__flex__container{
+  gap: 20%;
+  padding: 1% 5% 0 0;
+  flex-wrap: wrap;
+}
+
+.langselkaar {
+  display: initial;
+  margin-left: 10rem;
+}
+
+.items__flex__container div{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+
+.kaartproducten {
+  background-color: $productbalk;
+  margin: 20px;
+  text-align: center;
+  max-width: 350px;
+  border-radius: 5%;
+  display: inline-block;
+}
+
+.kaartproducten img{
+  width: 100%;
+}
+
+.kaartproducten button:hover {
+  background-color: $hoverkleurproduct;
+}
+
+.kaartproducten p {
+  color: $wit;
+  margin-bottom: 1rem;
+}
+
+
+.kaartproducten h1{
+  margin-top: -10px;
+}
+
+.kaartproducten button {
+  width: 50%;
+  border: none;
+  padding-bottom: 10px;
+  margin: 20px;
+  padding-top: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  color: $wit;
+  background-color: $buttonkleur;
+}
+.buttonfavproduct {
+  margin-top: 40px;
+
+}
+.PaginationComponent{
+  align-items: center;
+}
+li {
+  list-style-type: none;
+}
+  .PaginationClick{
+    color: $wit;
+    background-color: $herokleur;
+    margin: 4px;
+  }
+
+

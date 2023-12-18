@@ -1,0 +1,242 @@
+[
+    {
+        "id":"CorsairHS35",
+        "title": "Corsair HS35",
+        "description": "Een headset om te gamen.",
+        "img": "corsair1.jpg",
+        "price": 99.99,
+        "BTW": 21,
+        "stock": 21,
+        "filter": { "soort": "Persoonlijk",
+            "prijs": "Duur"
+        }
+    },
+    {
+        "id":"PhoenixXperience_Pro",
+        "title": "PhoenixXperience Pro",
+        "description": "Gebruik deze voor kwalitatief geluid.",
+        "img": "phoenix1.jpg",
+        "price": 149.99,
+        "BTW": 21,
+        "stock": 9,
+        "filter": { "soort": "Professioneel",
+            "prijs": "Goedkoop"
+        }
+    },
+    {
+        "id":"EliteAudio_Master",
+        "title": "EliteAudio Master",
+        "description": "Beste headset voor noise-canceling.",
+        "img": "eliteaudio1.jpg",
+        "price": 129.99,
+        "BTW": 21,
+        "stock": 53,
+        "filter": { "soort": "Persoonlijk",
+            "prijs":"Goedkoop"
+        }
+    },
+    {
+        "id":"AeroSound_Performer",
+        "title": "AeroSound Performer",
+        "description": "Ideaal voor mensen dat werken.",
+        "img": "aero1.jpg",
+        "price": 49.95,
+        "BTW": 21,
+        "stock": 5,
+        "filter": { "soort": "Persoonlijk",
+            "prijs": "Goedkoop"
+        }
+    },
+    {
+        "id":"TechBeat_Pro_Gaming_Headset",
+        "title": "TechBeat Headset",
+        "description": "Moderne headset met microfoon.",
+        "img": "techbeat1.jpg",
+        "price": 89.99,
+        "BTW": 21,
+        "stock": 3,
+        "filter": { "soort": "Persoonlijk",
+            "prijs": "Goedkoop"
+        }
+    },
+    {
+        "id":"RapidAudio_Comfort_Series",
+        "title": "RapidAudio Comfort Series",
+        "description": "koptelefoon met geluidskwaliteit.",
+        "img": "rapid1.jpg",
+        "price": 49.99,
+        "BTW": 21,
+        "stock": 35,
+        "filter": { "soort": "Persoonlijk",
+            "prijs": "Duur"
+        }
+    },
+    {
+        "id":"SonicBoom_Basic_Edition",
+        "title": "SonicBoom Basic Edition",
+        "description": "Ideaal voor playstation gebruikers.",
+        "img": "sonic1.jpg",
+        "price": 29.99,
+        "BTW": 21,
+        "stock": 0,
+        "filter": { "soort": "Persoonlijk",
+            "prijs": "Duur"
+        }
+    },
+    {
+        "id":"BetaBlast_Lite_Headset",
+        "title": "BetaBlast Lite Headset",
+        "description": "Headset voor kinderen.",
+        "img": "betablast1.jpg",
+        "price": 149.99,
+        "BTW": 21,
+        "stock": 15,
+        "filter": { "soort": "Persoonlijk",
+            "prijs": "Duur"
+        }
+    },
+    {
+        "id":"Beyerdynamic_DT_990_Pro",
+        "title": "Beyerdynamic DT 990 Pro",
+        "description": "Krachtige headset voor diverse doeleinden.",
+        "img": "dt990.jpg",
+        "price": 179.99,
+        "BTW": 21,
+        "stock": 18,
+        "filter": { "soort": "Persoonlijk",
+            "prijs": "Duur"
+        }
+    },
+    {
+        "id":"Razer_Kraken_Ultimate",
+        "title":  "Razer Kraken Ultimate",
+        "description": "Complete headset voor gamers.",
+        "img": "razenkraken.jpg",
+        "price": 129.99,
+        "BTW": 21,
+        "stock": 1,
+        "filter": { "soort": "Persoonlijk",
+            "prijs": "Duur"
+        }
+    },
+    {
+        "id":"Sony_WH-1000XM4",
+        "title": "Sony WH-1000XM4",
+        "description": "Ideale headset voor reizigers.",
+        "img": "sonywh.jpg",
+        "price": 349.99,
+        "BTW": 21,
+        "stock": 1,
+        "filter": { "soort":"Professioneel",
+            "prijs": "Goedkoop"
+        }
+    },
+    {
+        "id":"Sennheiser_HD_660_S",
+        "title": "Sennheiser HD 660 S",
+        "description":"Beste headset voor dj's.",
+        "img": "sennheiner.jpg",
+        "price": 499.99,
+        "BTW": 21,
+        "stock": 18,
+        "filter": { "soort": "Professioneel",
+            "prijs":"Goedkoop"
+        }
+    },
+    {
+        "id":"Bose_QuietComfort_35_II",
+        "title": "Bose QuietComfort 35 II",
+        "description":"Lichte headset voor buiten",
+        "img": "bosequiet.jpg",
+        "price": 69.99,
+        "BTW": 21,
+        "stock": 25,
+        "filter": { "soort":"Professioneel",
+            "prijs": "Goedkoop"
+        }
+    },
+    {
+        "id":"Plantronics_Voyager_8200",
+        "title":"Plantronics Voyager 8200",
+        "description": "headset voor beginnende dj's.",
+        "img": "voyager.jpg",
+        "price": 249.99,
+        "BTW": 21,
+        "stock": 30,
+        "filter": { "soort": "Professioneel",
+            "prijs": "Goedkoop"
+        }
+    },
+    {
+        "id":"JBL_Quantum_400",
+        "title": "JBL Quantum 400",
+        "description": "Verstelbare headset met LED-verlichting",
+        "img": "jbl.jpg",
+        "price": 90,
+        "BTW": 21,
+        "stock": 22,
+        "filter": { "soort": "Professioneel",
+            "prijs": "Goedkoop"
+        }
+    },
+    {
+        "id":"Shure_SRH1540",
+        "title": "Shure SRH1540",
+        "description": "Krachtige headset voor basliefhebbers.",
+        "img": "shure.jpg",
+        "price": 499.99,
+        "BTW": 21,
+        "stock": 15,
+        "filter": { "soort": "Professioneel",
+            "prijs": "Duur"
+        }
+    },
+    {
+        "id":"Apple_AirPods_Max",
+        "title": "Apple AirPods Max",
+        "description":  "Stijlvolle headsets voor Apple gebruikers.",
+        "img": "appleairpods.jpg",
+        "price": 600,
+        "BTW": 21,
+        "stock": 5,
+        "filter": { "soort": "Professioneel",
+            "prijs": "Duur"
+        }
+    },
+    {
+        "id":"Beats_Studio3_Wireless",
+        "title": "Beats Studio3 Wireless",
+        "description": "Complete headset voor reizigers.",
+        "img": "beats.jpg",
+        "price": 300,
+        "BTW": 21,
+        "stock": 15,
+        "filter": { "soort": "Professioneel",
+            "prijs": "Duur"
+        }
+    },
+    {
+        "id":"SteelSeries_Arctis_Pro_Wireles",
+        "title": "SteelSeries Arctis Pro",
+        "description":  "Headset voor youtubers.",
+        "img": "steelseries.jpg",
+        "price": 330,
+        "BTW": 21,
+        "stock": 19,
+        "filter": { "soort":"Professioneel",
+            "prijs": "Duur"
+        }
+    },
+    {
+        "id":"Plantronics_BackBeat_PRO_2",
+        "title": "Plantronics BackBeat",
+        "description": "Muziekliefhebbers op het hoogste niveau.",
+        "img": "planton.jpg",
+        "price": 79.99,
+        "BTW": 21,
+        "stock": 15,
+        "filter": { "soort": "Professioneel",
+            "prijs": "Duur"
+        }
+    }
+]

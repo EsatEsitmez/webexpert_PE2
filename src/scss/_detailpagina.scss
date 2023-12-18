@@ -1,0 +1,142 @@
+@import "variabelen";
+
+.breadcrumb {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 110px;
+
+  .Breadcrumbtext {
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+.productinfopagina {
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  img {
+    margin: auto;
+    display: block;
+    width: 55%;
+  }
+
+  h1 {
+    margin: 0 0 5% 0;
+  }
+
+  div {
+    margin-top: 5%;
+  }
+
+  p {
+    padding-right: 20%;
+  }
+}
+
+.hoeveelheid {
+  display: flex;
+  width: 10%;
+
+  button {
+    min-width: 40px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0 5px 0 5px;
+  }
+
+  p {
+    width: 100px;
+    min-width: 50px;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: center;
+    background-color: $trhoverkleur;
+  }
+}
+
+.productdetails__buttons {
+  margin-top: 5%;
+  padding: 10px;
+  @include button;
+}
+
+.vergelijkingstabel {
+  margin-top: 30px;
+  overflow-x: auto;
+  margin-left: 25%;
+  margin-right: 10%;
+  padding-bottom: 20px;
+
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    th, td {
+      border: 1px solid $hoverwit;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: $thkleur;
+    }
+
+    tr:nth-child(even) {
+      background-color: $trkleur;
+    }
+
+    tr:hover {
+      background-color: $trhoverkleur;
+    }
+  }
+
+  @media (max-width: 768px) {
+    table {
+      display: block;
+
+      th, td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      th {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.technische-specificaties {
+  margin-top: 30px;
+  padding-left: 0;
+
+  h3 {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    padding-top: 0;
+    color: $herokleur;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #333;
+    }
+  }
+}
+
+
+

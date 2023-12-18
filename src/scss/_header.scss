@@ -1,0 +1,65 @@
+@import "variabelen";
+
+//navbar
+.navigation {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 0;
+  background-color: $accentkleur;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.brand {
+  float: left;
+  padding: 10px 0 0 20px;
+  opacity: 100%;
+}
+
+.navbar-brand img{
+  width: auto;
+  height: 80px;
+}
+
+.navbar-image{
+  width: 40px;
+  padding-top: 8px;
+  margin-top: 8px;
+  height: auto;
+}
+
+nav {
+  float: right;
+  padding-right: 80px;
+  ul {
+    list-style: none;
+
+    li {
+      float: left;
+      position: relative;
+
+      a {
+        display: block;
+        line-height: 80px;
+        text-decoration: none;
+        padding: 10px 10px 0 40px;
+        color: $wit;
+        text-align: center;
+        transition: color 0.3s, font-size 0.3s;
+
+        &:hover {
+          color: $grijs;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+#winkelwagentotaal{
+  margin-top: 50px;
+}
+
+
