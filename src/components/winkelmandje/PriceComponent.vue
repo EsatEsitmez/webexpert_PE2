@@ -1,6 +1,6 @@
 <template>
   <div class="winkelwagenbesteloverzicht">
-    <div><h1 class="lt__moret_h1" style="font-weight: 400">Besteloverzicht</h1></div>
+    <div><h1 style="font-weight: 400">Besteloverzicht</h1></div>
 
      <div>
        <div class="winkelwagenbesteloverzichtvlakken">
