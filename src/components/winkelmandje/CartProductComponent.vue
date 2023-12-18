@@ -48,7 +48,7 @@ export default {
 
   computed: {
     subtotalChange() {
-      return 'Subtotaal: €' + (Math.round((this.product.price * this.product.quantity) * 100) / 100).toFixed(2);
+      return 'totaal: €' + (Math.round((this.product.price * this.product.quantity) * 100) / 100).toFixed(2);
     },
     BTWchange() {
       return 'BTW: €' + (Math.round((((this.product.price / 100) * this.product.BTW) * this.product.quantity) * 100) / 100).toFixed(2);
