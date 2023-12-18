@@ -80,7 +80,6 @@
     </section>
   </div>
 </template>
-
 <script>
 import PriceComponentVue from '@/components/winkelmandje/PriceComponent.vue';
 import SimpleCartProductComponent from '@/components/winkelmandje/SimpleCartProductComponent.vue';
@@ -114,6 +113,33 @@ export default {
     };
   },
 
+  created() {
+    this.loadCart();
+
+    const storedLoggedIn = localStorage.getItem('loggedIn');
+    const storedUsername = localStorage.getItem('username');
+
+    if (storedLoggedIn === 'true' && storedUsername) {
+      if (storedUsername === 'esat') {
+        this.voornaam = 'Esitmez';
+        this.naam = 'Esat';
+        this.email = 'esatesitmez@gmail.com';
+        this.adres = 'jeweetstraat 1';
+        this.stad = 'Genk';
+        this.postCode = '3600';
+        this.land = 'Belgie';
+      } else if (storedUsername === 'school@mail.be') {
+        this.voornaam = 'school';
+        this.naam = 'test';
+        this.email = '12001745@student.pxl.be';
+        this.adres = 'jeweetstraat 1';
+        this.stad = 'Genk';
+        this.postCode = '3600';
+        this.land = 'Belgie';
+      }
+    }
+  },
+
   mounted() {
     this.loadCart();
   },
@@ -141,5 +167,3 @@ export default {
 
 
 <style scoped>
-
-</style>
