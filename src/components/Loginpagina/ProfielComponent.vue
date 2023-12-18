@@ -49,10 +49,13 @@ export default {
   },
   methods: {
     login() {
-      const validUsername = 'school@mail.be';
-      const validPassword = 'test';
+      const validUsernames = ['school@mail.be', 'esat'];
+      const validPasswords = ['test', 'test'];
 
-      if (this.user.username === validUsername && this.user.password === validPassword) {
+      const isValidCredentials = validUsernames.includes(this.user.username) &&
+          validPasswords[validUsernames.indexOf(this.user.username)] === this.user.password;
+
+      if (isValidCredentials) {
         this.loggedIn = true;
         localStorage.setItem('loggedIn', 'true');
         localStorage.setItem('username', this.user.username);
