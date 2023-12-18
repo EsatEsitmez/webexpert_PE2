@@ -62,7 +62,7 @@
     {
         "id":"RapidAudio_Comfort_Series",
         "title": "RapidAudio Comfort Series",
-        "description": "koptelefoon met geluidskwaliteit.",
+        "description": "Koptelefoon met geluidskwaliteit.",
         "img": "rapid1.jpg",
         "price": 49.99,
         "BTW": 21,
@@ -158,7 +158,7 @@
     {
         "id":"Plantronics_Voyager_8200",
         "title":"Plantronics Voyager 8200",
-        "description": "headset voor beginnende dj's.",
+        "description": "Headset voor beginnende dj's.",
         "img": "voyager.jpg",
         "price": 249.99,
         "BTW": 21,
