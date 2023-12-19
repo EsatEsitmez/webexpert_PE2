@@ -1,15 +1,22 @@
 #Algemene informatie
 
 
-###PROJECT LATEN WERKEN DOOR
+##PROJECT LATEN WERKEN DOOR
 - npm run serve
 
-###SCSS WIJZIGINGEN
+##SCSS WIJZIGINGEN
 npx node-sass -o ../taakwebadvanced1/src/css src/scss/main.scss
 
 ###INLOGGEGEVENS
 mail: 
-school@mail.be
+school@mail.be 
+wachtwoord: 
+test
+
+of 
+
+naam: 
+esat
 wachtwoord: 
 test
 
@@ -40,18 +47,19 @@ test
 - Filter werkend
     - Prijs
     - Gebruik
-    
+-Paginatie en filter werken samen.
+
 ## Productinfo Pagina
 
 - Werkende breadcrumb
 - Gedetailleerde informatie van een geselecteerd product wordt weergegeven.
-- Voorbereid op toekomstige functionaliteit om producten aan een winkelmandje toe te voegen.
+- Functionaliteit om producten aan een winkelmandje toe te voegen.
+- Als product op is, een melding dat het niet meer beschikbaar is bij 0 producten of nadat alle producten in winkelmand zijn.
 - Headset vergelijken met soortgelijke headsets.
-- Gerelateerde producten.
 
 ## Login Pagina
 
-- Formulier voor gebruikers om in te loggen met e-mailadres en wachtwoord.
+- Formulier voor gebruikers om in te loggen met e-mailadres/naam en wachtwoord.
 - Mogelijkheid om een nieuw wachtwoord aan te vragen of te registreren.
 - Als ik uitlog gaat het alles van me localstorage verwijderen nadat ik refresh. 
 Dit zodat mensen niet iets in de winkelmand kunnen doen of hebben na het refreshen van de pagina
@@ -60,6 +68,8 @@ nadat ze zijn uitgelogd.
 ## Winkelwagen Pagina
 
 - Pagina waar gebruiker producten heeft gezet, hier kan ze deze verwijderen of verder gaan met een aankoop.
+- volgende pagina, heb je een invoice die automatisch is ingevuld op basis van ingelogde gebruiker. 
+- volgende pagina, de besteloverzicht.
 
 ## Responsive Design
 
